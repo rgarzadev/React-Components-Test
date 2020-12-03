@@ -1,0 +1,9 @@
+.ContentArea {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.ChatHistory {
+    border: solid black;
+    min-height: 300px;
+}

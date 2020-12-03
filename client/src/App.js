@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Settings from "./pages/Settings";
 import MyChats from "./pages/MyChats";
-import Chat from "./pages/Chat";
+import Chat from "./pages/Chat/Chat";
 
 import Footer from "./components/Footer/Footer";
 
