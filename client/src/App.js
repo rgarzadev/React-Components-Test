@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from "./components/Nav/Nav";
 
 import NoMatch from "./pages/NoMatch";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Search from "./pages/Search";
 import Settings from "./pages/Settings";
 import MyChats from "./pages/MyChats";
