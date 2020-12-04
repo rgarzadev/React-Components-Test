@@ -1,10 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
-import { Container, IconButton, makeStyles } from '@material-ui/core';
-
-import ForumIcon from '@material-ui/icons/Forum';
+import { Container, makeStyles } from '@material-ui/core';
 
 import "./MyUserNameCard.css";
 
@@ -29,17 +25,10 @@ function MyUserNameCard() {
         <div className= "ContentArea">
         <Container className="MyUserNameCard" maxWidth="sm">
             <div className="container">
-            <div className="row">
-                <div className="col-4 MyUserImage">USER IMAGE</div>
-                <div className="col-4 MyUserNamePlate">USERNAME</div>
-                <div className="col-4">
-                <Link to='/chat'>
-                  <IconButton color="inherit" className={classes.centerButton}>
-                    <ForumIcon fontSize="large"/>
-                  </IconButton>
-                </Link>
-                </div>
-            </div>
+              <div className="row">
+                  <div className="col-4 MyUserImage">My Dynamic Image</div>
+                  <div className="col-8 MyUserNamePlate">My Dynamic UserName</div>
+              </div>
             </div>
         </Container>
         </div>

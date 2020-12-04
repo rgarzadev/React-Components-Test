@@ -8,9 +8,16 @@
     padding-right: 3% !important;
 }
 
-.col-4 {
+.MyUserImage {
     text-align: center;
     align-items: center;
     padding-left: 1% !important;
     padding-right: 1% !important;
-  }
+}
+
+.MyUserNamePlate {
+    text-align: left;
+    align-items: center;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+}
