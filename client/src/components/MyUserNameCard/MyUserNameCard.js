@@ -30,8 +30,8 @@ function MyUserNameCard() {
         <Container className="MyUserNameCard" maxWidth="sm">
             <div className="container">
             <div className="row">
-                <div className="col-4 OtherUserImage">USER IMAGE</div>
-                <div className="col-4 OtherUserNamePlate">USERNAME</div>
+                <div className="col-4 MyUserImage">USER IMAGE</div>
+                <div className="col-4 MyUserNamePlate">USERNAME</div>
                 <div className="col-4">
                 <Link to='/chat'>
                   <IconButton color="inherit" className={classes.centerButton}>

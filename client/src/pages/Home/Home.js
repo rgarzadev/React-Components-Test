@@ -1,6 +1,7 @@
 import React from 'react';
 import Switch from '../../components/Switch/Switch';
-import ChatTextInputArea from '../../components/ChatTextInputArea/ChatTextInputArea';
+import MyChategories from '../../components/MyChategories/MyChategories';
+import MyPosts from '../../components/MyPosts/MyPosts';
 
 function Home() {
 
@@ -8,7 +9,7 @@ function Home() {
         <>
         <h1>This is the HOME page</h1>
 
-        <Switch left="off" right="on" LDisplay="this is off" RDisplay={<ChatTextInputArea/>}/>
+        <Switch left="off" right="on" LDisplay={<MyChategories/>} RDisplay={<MyPosts/>}/>
           
         </>
     )

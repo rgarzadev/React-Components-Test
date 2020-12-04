@@ -1,4 +1,3 @@
-import { Container } from '@material-ui/core';
 import React from 'react';
 import OtherUserNameCard from "../../components/OtherUserNameCard/OtherUserNameCard";
 import ChatHistory from "../../components/ChatHistory/ChatHistory";
