@@ -6,7 +6,7 @@ import Nav from "./components/Nav/Nav";
 
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home/Home";
-import Search from "./pages/Search";
+import Search from "./pages/Search/Search";
 import Settings from "./pages/Settings";
 import MyChats from "./pages/MyChats";
 import Chat from "./pages/Chat/Chat";

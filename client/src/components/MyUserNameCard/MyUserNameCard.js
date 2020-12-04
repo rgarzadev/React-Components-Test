@@ -6,9 +6,7 @@ import { Container, IconButton, makeStyles } from '@material-ui/core';
 
 import ForumIcon from '@material-ui/icons/Forum';
 
-import "./OtherUserNameCard.css";
-
-
+import "./MyUserNameCard.css";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-function OtherUserNameCard() {
+function MyUserNameCard() {
     const classes = useStyles();
 
     const navStyle = {
@@ -29,11 +27,11 @@ function OtherUserNameCard() {
 
     return (
         <div className= "ContentArea">
-        <Container className="OtherUserNameCard" maxWidth="sm">
+        <Container className="MyUserNameCard" maxWidth="sm">
             <div className="container">
             <div className="row">
-                <div className="col-4 OtherUserImage"><p>User Image</p></div>
-                <div className="col-4 OtherUserNamePlate"><p>UserName</p></div>
+                <div className="col-4 OtherUserImage">USER IMAGE</div>
+                <div className="col-4 OtherUserNamePlate">USERNAME</div>
                 <div className="col-4">
                 <Link to='/chat'>
                   <IconButton color="inherit" className={classes.centerButton}>
@@ -48,4 +46,4 @@ function OtherUserNameCard() {
     )
 }
 
-export default OtherUserNameCard;
+export default MyUserNameCard;

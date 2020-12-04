@@ -36,7 +36,7 @@ function Nav() {
                 </Link>
 
                 <Typography style={ navStyle } align="center" variant="h4" className={classes.title}>
-                    CG
+                    C||G
                 </Typography>
 
                 {/* <Link style={ navStyle } href="https://youtube.com" target="_blank"> */}
