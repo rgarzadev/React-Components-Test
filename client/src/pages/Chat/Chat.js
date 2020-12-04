@@ -10,7 +10,7 @@ function Chat() {
         <div>
         
             <div className="container MuiContainer-maxWidthSm">
-                <h5 className="PageTitle">Chatting With:</h5>
+                <h5 className="PageTitle">I'm Chatting With:</h5>
             </div>
 
             <OtherUserNameCard/>
