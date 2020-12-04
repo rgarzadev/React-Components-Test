@@ -8,9 +8,31 @@
     padding-right: 3% !important;
 }
 
-.col-4 {
+.OtherUserImage {
     text-align: center;
     align-items: center;
     padding-left: 1% !important;
     padding-right: 1% !important;
+  }
+
+  .OtherUserNamePlate {
+    text-align: center;
+    align-items: center;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+
+  .ChatIcon {
+    text-align: center;
+    align-items: center;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+
+  .PageTitle {
+      margin-top: 2%;
+  }
+
+  .AboutRow {
+      margin-top: 2%;
   }

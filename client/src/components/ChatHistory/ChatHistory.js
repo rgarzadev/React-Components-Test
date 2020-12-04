@@ -1,13 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Container, AppBar, Toolbar, IconButton, Typography} from '@material-ui/core';
-import { Link } from 'react-router-dom';
+import { Container } from '@material-ui/core';
 
-import ForumIcon from '@material-ui/icons/Forum';
-import HelpIcon from '@material-ui/icons/Help';
 import "./ChatHistory.css";
-
-
 
 
 const useStyles = makeStyles((theme) => ({

@@ -10,36 +10,32 @@ function Chat() {
     return (
         <div>
         
-            <br></br>
-
-            <h4 className="pageTitle">Chatting With:</h4>
+            <div className="container MuiContainer-maxWidthSm">
+                <h5 className="PageTitle">Chatting With:</h5>
+            </div>
 
             <OtherUserNameCard/>
 
-            <br></br>
+            <div className="container MuiContainer-maxWidthSm">
+                
+                <div className="row AboutRow">
 
-            <div className="container">
-                <div className="row">
-
-                    <div className="col"></div>
+                    <div className="col-3 AlignRight"><h6>About:</h6></div>
                     
-                    <div className="col"><h4>About:</h4></div>
-                    
-                    <div className="col">
-                        <div className="DynamicTopicArea">
-                        <h6>Dynamic Topic Here</h6>
+                    <div className="col-6 AlignCenter" >
+                        <div className="AlignCenter DynamicTopicArea">
+                        <h6>Dynamic Topic Goes Right Here</h6>
                         </div>
                     </div>
-                    
-                    <div className="col"></div>
+
+                    <div className="col-3 NoPadding"></div>
+
                 </div>
             </div>
 
-            <ChatHistory/>
-
-            <br></br>
-
             <ChatTextInputArea/>
+
+            <ChatHistory/>
 
         </div>
     )

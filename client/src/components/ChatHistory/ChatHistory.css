@@ -5,5 +5,6 @@
 
 .ChatHistory {
     border: solid black;
-    min-height: 300px;
+    min-height: 500px;
+    margin-bottom: 80px;
 }

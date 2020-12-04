@@ -32,9 +32,9 @@ function OtherUserNameCard() {
         <Container className="OtherUserNameCard" maxWidth="sm">
             <div className="container">
             <div className="row">
-                <div className="col-4 OtherUserImage"><p>User Image</p></div>
-                <div className="col-4 OtherUserNamePlate"><p>UserName</p></div>
-                <div className="col-4">
+                <div className="col-3 OtherUserImage">User Image</div>
+                <div className="col-6 OtherUserNamePlate">UserName</div>
+                <div className="col-3 ChatIcon">
                 <Link to='/chat'>
                   <IconButton color="inherit" className={classes.centerButton}>
                     <ForumIcon fontSize="large"/>

@@ -8,7 +8,7 @@ import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home/Home";
 import Search from "./pages/Search/Search";
 import Settings from "./pages/Settings";
-import MyChats from "./pages/MyChats";
+import MyChats from "./pages/MyChats/MyChats";
 import Chat from "./pages/Chat/Chat";
 
 import Footer from "./components/Footer/Footer";
