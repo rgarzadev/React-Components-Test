@@ -11,17 +11,17 @@ import Chat from "./pages/Chat/Chat";
 import Footer from "./components/Footer/Footer";
 import otherUserProfile from "./pages/OtherUserProfile/otherUserProfile"
 
-import { ThemeProvider } from '@material-ui/core/styles'
-import CssBaseline from '@material-ui/core/CssBaseline'
-import theme from './theme'
+// import { ThemeProvider } from '@material-ui/core/styles'
+// import CssBaseline from '@material-ui/core/CssBaseline'
+// import theme from './theme'
 import './App.css';
 
 function App() {
   const isLoggedIn = true;
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    // <ThemeProvider theme={theme}>
+      // <CssBaseline />
         <Router>
           <Nav/>
           <Switch>
@@ -39,7 +39,7 @@ function App() {
           {isLoggedIn ? <Footer/> : null}
 
         </Router>
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 }
 
