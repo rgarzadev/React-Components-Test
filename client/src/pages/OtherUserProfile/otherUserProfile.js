@@ -13,22 +13,33 @@ import Switch from '../../components/Switch/Switch';
 
 function otherUserProfile() {
     return (
-        <div>
+
+        <div className="container">
 
             <br></br>
 
             <ProfileDisplayName className="profile-display-name" />
 
-            <br></br>
-
             <OtherUserNameCard />
 
-            <br></br>
-            <>
-            <Switch left="About Me" right="My Posts" LDisplay={<OtherUserAboutMe/>} RDisplay={<OtherUserMyPosts/>}/>
-            </>
+                <div className="row">
+
+                    <div className="col AlignCenter">
+
+                        <br></br>
+
+                    <>
+                    <Switch left="About Me" right="My Posts" LDisplay={<OtherUserAboutMe/>} RDisplay={<OtherUserMyPosts/>}/>
+                    </>
+
+                    </div>
+
+                </div>
+
 
         </div>
+
+        
     )
 }
 
