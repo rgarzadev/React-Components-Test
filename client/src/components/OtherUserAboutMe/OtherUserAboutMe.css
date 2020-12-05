@@ -1,15 +1,18 @@
-.otherUserChategories {
-    border: solid black;
-    padding-left: 1% !important;
-    padding-right: 1% !important;
-}
 .ContentArea {
-    padding-left: 3% !important;
-    padding-right: 3% !important;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.aboutMeInput {
+.bioContainer {
   border: solid black;
-  padding-left: 1% !important;
-  padding-right: 1% !important;
+  min-height: 125px;
+  margin-bottom: 60px;
+  background-color: rgb(158, 147, 147);
+}
+
+.MyChategories {
+  border: solid black;
+  min-height: 550px;
+  margin-bottom: 60px;
+  background-color: rgb(158, 147, 147);
 }
