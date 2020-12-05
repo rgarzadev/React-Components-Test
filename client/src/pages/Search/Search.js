@@ -26,7 +26,7 @@ function Search() {
 
                 <div className="row">
 
-                    <div className="col AlignCenter TextFieldPadding">
+                    <div className="col TextFieldPadding">
 
                         <TextField fullWidth="true" label="Search" variant="outlined" onClick={() => onSearchFieldClick()} /><br />
 
@@ -43,7 +43,7 @@ function Search() {
 
                     <div className="col AlignCenter">
 
-                        {"Newest Chategories"} <Switch checked={toggleState} onChange={() => setToggleState(!toggleState)} /> {"Search Results"}
+                        {"New Chategories"} <Switch checked={toggleState} onChange={() => setToggleState(!toggleState)} /> {"Search Results"}
 
                         <div>{toggleState ? <SearchResults/> : <NewestChategories/>}</div>
 
