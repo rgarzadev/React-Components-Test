@@ -7,10 +7,21 @@ import "./OtherUserMyPosts.css";
 function OtherUserMyPosts() {
     return (
         <div className="ContentArea">
-        <Container className="AboutMeInputArea" maxWidth="sm">
-            <div className="container">
-                </div>
-        </Container>
+
+            <div className= "ContentArea">
+
+                <h5> Recent Posts: </h5>
+
+                <Container className="OtherUserMyPosts" maxWidth="sm">
+
+                    <div className="OtherUserRecentPosts">
+
+                    </div>
+
+                </Container>
+
+            </div>
+
         </div>
     )
 }

@@ -1,8 +1,21 @@
 import React from 'react';
+import { Container } from '@material-ui/core';
+
+import "./Settings.css";
+
 
 function Settings() {
     return (
-        <h1>This is the SETTINGS page</h1>
+        <div className= "OtherUserNamePlate" maxWidth="sm">
+
+            <br></br>
+
+            <h5> Edit Profile </h5>
+
+            <br></br>
+
+        </div>
+
     )
 }
 

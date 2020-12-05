@@ -1,12 +1,11 @@
 .ContentArea {
     padding-left: 10%;
     padding-right: 10%;
-  }
-  
-  .OtherUserMyPosts {
+}
+
+.OtherUserChategories {
     border: solid black;
-    min-height: 325px;
+    min-height: 550px;
     margin-bottom: 60px;
-    background-color: rgb(158, 147, 147);
-  }
-  
+    background-color: rgb(153, 139, 139);
+}
