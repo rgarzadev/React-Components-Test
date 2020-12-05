@@ -10,6 +10,8 @@ import MyChats from "./pages/MyChats/MyChats";
 import Chat from "./pages/Chat/Chat";
 import Footer from "./components/Footer/Footer";
 import otherUserProfile from "./pages/OtherUserProfile/otherUserProfile"
+import SelectedChategory from "./pages/SelectedChategory/SelectedChategory"
+
 
 // import { ThemeProvider } from '@material-ui/core/styles'
 // import CssBaseline from '@material-ui/core/CssBaseline'
@@ -32,6 +34,7 @@ function App() {
             <Route exact path="/chat" component={Chat}/>
             <Route exact path="/settings" component={Settings}/>
             <Route exact path="/otheruserprofile" component={otherUserProfile}/>
+            <Route exact path="/selectedchategory" component={SelectedChategory}/>
             <Route path="/*" component={NoMatch}/>
 
           </Switch>
