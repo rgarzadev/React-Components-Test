@@ -5,6 +5,8 @@ import AddNewChategory from '../../components/AddNewChategory/AddNewChategory';
 import NewestChategories from '../../components/NewestChategories/NewestChategories';
 import SearchResults from '../../components/SearchResults/SearchResults';
 
+import "./Search.css";
+
 
 function Search() {
 
@@ -18,15 +20,15 @@ function Search() {
 
     return (
 
-        <div>
+        <div className="TopBottomMargin">
 
             <div className="container MuiContainer-maxWidthSm">
 
                 <div className="row">
 
-                    <div className="col AlignCenter">
+                    <div className="col AlignCenter TextFieldPadding">
 
-                        <TextField label="Search" variant="outlined" onClick={() => onSearchFieldClick()} /><br />
+                        <TextField fullWidth="true" label="Search" variant="outlined" onClick={() => onSearchFieldClick()} /><br />
 
                     </div>
 
@@ -43,7 +45,7 @@ function Search() {
 
                         {"Newest Chategories"} <Switch checked={toggleState} onChange={() => setToggleState(!toggleState)} /> {"Search Results"}
 
-                        <div>{toggleState ? <NewestChategories/> : <SearchResults/>}</div>
+                        <div>{toggleState ? <SearchResults/> : <NewestChategories/>}</div>
 
                         <Button variant="contained" color="primary" onClick={() => setModalShow(true)}>Add a NEW Chategory</Button>
 
@@ -53,11 +55,7 @@ function Search() {
 
                 </div>
 
-
             </div>
-
-
-
 
         </div>
     )
