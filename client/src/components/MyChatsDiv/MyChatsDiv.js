@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core';
 
-import "./SearchResults.css";
+import "./MyChatsDiv.css";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-function SearchResults() {
+function MyChatsDiv() {
     const classes = useStyles();
 
     const navStyle = {
@@ -23,7 +23,7 @@ function SearchResults() {
 
     return (
         <div className= "ContentArea">
-        <Container className="SearchResults" maxWidth="sm">
+        <Container className="MyChatsDiv" maxWidth="sm">
             <div className="container">
                 </div>
         </Container>
@@ -31,4 +31,4 @@ function SearchResults() {
     )
 }
 
-export default SearchResults;
+export default MyChatsDiv;

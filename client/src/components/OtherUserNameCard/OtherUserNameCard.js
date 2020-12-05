@@ -35,7 +35,7 @@ function OtherUserNameCard() {
                 <div className="col-3 OtherUserImage">User Image</div>
                 <div className="col-6 OtherUserNamePlate">UserName</div>
                 <div className="col-3 ChatIcon">
-                <Link to='/chat'>
+                <Link to='/mychats'>
                   <IconButton color="inherit" className={classes.centerButton}>
                     <ForumIcon fontSize="large"/>
                   </IconButton>

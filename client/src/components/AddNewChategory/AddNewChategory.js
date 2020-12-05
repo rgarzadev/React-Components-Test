@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import { Modal } from 'react-bootstrap';
 import {Button, TextField} from '@material-ui/core';
 
+import "./AddNewChategory.css";
+
 const AddNewChategory = (props) => {
 
     const [chategory, setChategory] = useState("");
@@ -28,9 +30,18 @@ const AddNewChategory = (props) => {
             centered
         >
             <Modal.Body>
-                <TextField label="New Chategory Name" variant="outlined" onChange={()=>onChategoryFieldChange()}/><br/>
-                <TextField label="New Chategory Topic" variant="outlined" onChange={()=>onTopicFieldChange()}/><br/>
-                <Button variant="contained" color="primary" onClick={()=>onButtonClick()} >Add NEW Chategory</Button>
+                <div className="Name">
+                    <TextField fullWidth="true" label="New Chategory Name" variant="outlined" onChange={()=>onChategoryFieldChange()}/><br/>
+                </div>
+
+                <div className="Topic">
+                    <TextField fullWidth="true" label="New Chategory Topic" variant="outlined" onChange={()=>onTopicFieldChange()}/><br/>
+                </div>
+
+                <div className="AddNewButton">
+                    <Button variant="contained" color="primary" onClick={()=>onButtonClick()} >Add NEW Chategory</Button>
+                </div>
+
             </Modal.Body>
         </Modal>
     )
