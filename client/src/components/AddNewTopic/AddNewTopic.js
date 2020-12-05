@@ -22,7 +22,7 @@ const AddNewTopic = (props) => {
         console.log("make api call");
     }
 
-    return (
+     return (
         <Modal
             {...props}
             size="lg"
@@ -30,12 +30,9 @@ const AddNewTopic = (props) => {
             centered
         >
             <Modal.Body>
-                {/* <div className="Name">
-                    <TextField fullWidth="true" label="New Chategory Name" variant="outlined" onChange={()=>onChategoryFieldChange()}/><br/>
-                </div> */}
 
                 <div className="Topic">
-                    <TextField fullWidth="true" label="New Chategory Topic" variant="outlined" onChange={()=>onTopicFieldChange()}/><br/>
+                    <TextField fullWidth="true" label="New Topic" variant="outlined" onChange={()=>onTopicFieldChange()}/><br/>
                 </div>
 
                 <div className="AddNewButton">

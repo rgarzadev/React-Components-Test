@@ -3,17 +3,22 @@
     text-align: center;
   }
   
-  .AlignRight {
-    text-align: right;
-    padding: 0px !important;
-  }
-  
-  .AlignCenter {
-    text-align: center !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-  
-  .NoPadding {
-    padding: 0px !important;
-  }
+.AlignRight {
+  text-align: right;
+  padding: 0px !important;
+}
+
+.AlignCenter {
+  text-align: center !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.NoPadding {
+  padding: 0px !important;
+}
+
+.TopBottomMargin {
+  margin-top: 12px;
+  margin-bottom: 65px;
+}

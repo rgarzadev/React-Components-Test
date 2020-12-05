@@ -10,16 +10,20 @@ import AddNewTopic from "../../components/AddNewTopic/AddNewTopic";
 import "./SelectedChategory.css";
 
 
-const onButtonClick = (event) => {
-    console.log("make api call");
-}
-
 function SelectedChategory() {
+
+    const onButtonClick = (event) => {
+        console.log("make api call");
+    }
+    
+
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
 
         <div>
 
-            <div className="container">
+            <div className="container TopBottomMargin">
 
                 <div className="row">
 
@@ -43,7 +47,9 @@ function SelectedChategory() {
 
                         <br/>
 
-                        <AddNewTopic/>
+                        <Button variant="contained" color="primary" onClick={() => setModalShow(true)}>Add a NEW Topic</Button>
+
+                        <AddNewTopic show={modalShow} onHide={() => setModalShow(false)} />
 
                     </div>
 
