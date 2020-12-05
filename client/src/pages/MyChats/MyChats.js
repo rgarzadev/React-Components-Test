@@ -8,13 +8,15 @@ import MyChatsDiv from '../../components/MyChatsDiv/MyChatsDiv';
 function MyChats() {
     return (
 
-    <div>
+        <div>
 
-        <ProfileDisplayName className="profile-display-name"/>
-        
-        <MyChatsDiv/>
+            <div className="container MuiContainer-maxWidthSm">
+                <h5 className="PageTitle">My Chats:</h5>
+            </div>
 
-    </div>
+            <MyChatsDiv />
+
+        </div>
 
     )
 }
