@@ -40,7 +40,7 @@ function Footer() {
 
           <div className={classes.grow}/>
 
-          <Link style={ navStyle } to='/chat'>
+          <Link style={ navStyle } to='/mychats'>
           <IconButton color="inherit" className={classes.centerButton}>
             <ForumIcon fontSize="large"/>
           </IconButton>
