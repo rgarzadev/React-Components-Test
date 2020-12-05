@@ -1,3 +1,7 @@
+h6 {
+    display: inline;
+}
+
 .TopBottomMargin {
     margin-top: 12px;
     margin-bottom: 65px;

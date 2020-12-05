@@ -43,7 +43,7 @@ function Search() {
 
                     <div className="col AlignCenter">
 
-                        {"New Chategories"} <Switch checked={toggleState} onChange={() => setToggleState(!toggleState)} /> {"Search Results"}
+                        {<h6>New Chategories</h6>} <Switch checked={toggleState} onChange={() => setToggleState(!toggleState)} /> {<h6>Search Results</h6>}
 
                         <div>{toggleState ? <SearchResults/> : <NewestChategories/>}</div>
 
